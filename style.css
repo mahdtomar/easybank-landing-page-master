@@ -275,8 +275,7 @@ footer div:nth-child(3) p {
   }
   hr{
     background-color: transparent;
-    margin-bottom: 200px;
-    display: block;
+    display: none;
 
   }
   .container{
@@ -299,6 +298,7 @@ footer div:nth-child(3) p {
   .bottom-img {
     z-index: -3;
     position: absolute;
+    top: -400px;
   }
   /*
   *
@@ -417,7 +417,7 @@ footer div:nth-child(3) p {
     align-items: center;
     justify-content: center;
     align-content: center;
-}
+  }
   footer div {
     height: 100%;
     text-align: center;
