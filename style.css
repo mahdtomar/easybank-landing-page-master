@@ -409,7 +409,7 @@ footer div:nth-child(3) p {
   footer {
     background-color: var(--Dark-Blue);
     color: white;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   footer .container {
     display: grid;
