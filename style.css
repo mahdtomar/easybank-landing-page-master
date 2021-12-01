@@ -412,10 +412,12 @@ footer div:nth-child(3) p {
     padding-bottom: 30px;
   }
   footer .container {
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap:50px ;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
   footer div {
     height: 100%;
     text-align: center;
