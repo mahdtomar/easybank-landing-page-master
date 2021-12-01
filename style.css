@@ -431,20 +431,23 @@ footer div:nth-child(3) p {
     cursor: pointer;
   }
   footer div:nth-child(2) {
-    margin-left: 20px;
+    margin-left: 00px;
   }
   footer div:nth-child(2) ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
     list-style: none;
     display: block;
   }
   footer div:nth-child(2) ul li {
-    margin: 20px;
+    margin: 20px 0px;
     width: 100%;
-    gap: 10px;
   }
   footer div:nth-child(2) ul li a {
-    color: white;
-    text-decoration: none;
+    margin: 20px 0px;
+    width: 100%;
   }
   footer div:nth-child(3) {
     text-align: right;
@@ -452,11 +455,13 @@ footer div:nth-child(3) p {
   }
   footer div:nth-child(3) button {
     position: relative;
-    top: 50px;
+    top: 00px;
+    right: 50%;
+    transform: translateX(50%);
   }
   footer div:nth-child(3) p {
     position: relative;
-    top: 100px;
+    top: 000px;
   }
   /* ending footer */
 }
