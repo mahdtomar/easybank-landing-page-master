@@ -256,7 +256,17 @@ footer div:nth-child(3) p {
 }
 .attribution a {
   color: hsl(86, 83%, 66%);
-}
+} /* 
+*
+*
+*
+*
+*
+*
+*
+*/
+
+/* starting mobile view  */
 
 @media only screen and (max-width: 600px) {
   *{overflow-x: hidden;}
@@ -299,6 +309,7 @@ footer div:nth-child(3) p {
   header {
     height: 900px;
     position: relative;
+    padding-bottom: 40px;
   }
   header .container {
     position: relative;
