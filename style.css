@@ -409,7 +409,7 @@ footer div:nth-child(3) p {
   footer {
     background-color: var(--Dark-Blue);
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 00px;
   }
   footer .container {
     display: flex;
